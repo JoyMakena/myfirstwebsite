@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Combo-Regular;
+    src: url(Combo-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Combo-Regular;
+}
+
+body {
+    background-image: url(../images/pretty.jpg) ;
+    background-repeat: repeat-y;
+    background-position: 100%;
+}
+
+    
+
+
+#title h1 {
+    text-align: center;
+    border-radius: 10px;
+}
+
+#title h2 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#title p {
+    padding: 6px;
+    font-size:30px ;
+    color:deeppink;
+    text-decoration:underline dashed;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+#pic img {
+    width:90%;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 200px;
+    text-decoration:underline;
+    color: orangered;
+    text-align: center ;
+    
+}
+#details p{
+    padding: 10px;
+    font-size: 45px;
+    display: flex;
+    color: deeppink; 
+}
+
+div #id socials{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
